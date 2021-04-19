@@ -58,7 +58,7 @@ p{                                          /* formatting general journal entrie
     padding-left: 1em;
     border-radius: 1em;
     border-style: solid;
-    display: flex;
+    display: block;
 }
 
 video {
