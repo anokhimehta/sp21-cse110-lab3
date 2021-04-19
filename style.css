@@ -58,7 +58,7 @@ p {
 }
 /* flexbox, margin, padding, border style and radius*/
 .journal { 
-    background-color: antiquewhite;
+    background-color: rgb(147, 184, 240);
     margin-left: 1em;
     padding-left: 1em;
     border-radius: 1em;
@@ -128,7 +128,7 @@ video {
 [name|="author"] {
     border-style:dotted;
     border-radius:30px;
-    border-color:antiquewhite;
+    border-color:rgb(111, 155, 192);
 }
 
 /*universal selector*/
