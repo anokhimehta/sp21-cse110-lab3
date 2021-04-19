@@ -64,7 +64,7 @@ p {
     border-radius: 1em;
     border-style: solid;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:center;
 
 }
