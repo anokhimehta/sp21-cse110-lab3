@@ -41,7 +41,7 @@ nav {
     margin: auto;
 }
 
-p{                                          /* formatting general journal entries */
+p{                                         
     margin: 5px 2cm 5px 2cm;
     padding: 5vh;
     border-style: solid;
@@ -52,21 +52,25 @@ p{                                          /* formatting general journal entrie
 
 }
 
-.journal {
+.journal { /* formatting general journal entries */
     background-color: antiquewhite;
     margin-left: 1em;
     padding-left: 1em;
     border-radius: 1em;
     border-style: solid;
-    display: block;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+
 }
 
-/* video {
+video {
     width: 320px;
     height: 240px;
-    display: inline-block;
-    position: static
-  } */
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
 
 @media only screen and (max-width: 500px){          /*responsiveness*/
     body{
@@ -79,4 +83,9 @@ p{                                          /* formatting general journal entrie
     position: relative;
     border-style: dashed;
     border-color:#84b0c4;
+}
+
+#Feedback-Form.metrics {
+    display: grid-inline;
+    grid-template-columns: auto;
 }
