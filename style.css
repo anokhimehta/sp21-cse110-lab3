@@ -2,11 +2,12 @@
 /* Setting background color */
 body {
     background-color: rgb(77, 122, 136);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
   }
 
-#title {
+.title {
     color: white;
+    padding: 25px 50px 75px 100px;
 }
 
 header {
@@ -29,6 +30,8 @@ nav {
     font-weight: bold;
     color:#e1eaeb;
 }
+
+
 
 .publicDescrip {
     background-color: #414141;
@@ -55,4 +58,11 @@ p{                                          /* formatting general journal entrie
     padding-left: 1em;
     border-radius: 1em;
     border-style: solid;
+    display: flex;
 }
+
+video {
+    width: 320px;
+    height: 240px;
+    display: inline-block;
+  }
