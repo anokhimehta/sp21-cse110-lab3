@@ -7,7 +7,7 @@ body {
 
 /*Class Selector, padding, color*/
 .title {
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 25px 50px 75px 100px;
 }
 
@@ -15,7 +15,7 @@ body {
 header {
     text-align: center;
     line-height: 1em;
-    color: bisque;
+    color: rgb(71, 80, 133);
     text-decoration: underline overline; 
 }
 
@@ -33,7 +33,7 @@ button:hover {
 /* Element selector*/
 nav {
     font-weight: bold;
-    color:#e1eaeb;
+    color:#314244;
 }
 
 
@@ -82,7 +82,7 @@ p {
 /*adjacent sibling combinator*/
 #Form input+label {
     border-style: hidden;
-    border-color: white;
+    border-color: rgb(0, 0, 0);
 }
 
 /*combining two selectors*/ 
