@@ -69,7 +69,8 @@ video {
     height: 240px;
     position: static;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    
   }
 
 @media only screen and (max-width: 500px){          /*responsiveness*/
@@ -79,13 +80,13 @@ video {
 }
 
 .pic {
-    width: 500px;
+    width: 250px;
     position: relative;
     border-style: dashed;
     border-color:#84b0c4;
 }
 
-#Feedback-Form.metrics {
+#Form {
     display: grid-inline;
     grid-template-columns: auto;
 }
