@@ -61,12 +61,12 @@ p{                                          /* formatting general journal entrie
     display: block;
 }
 
-video {
+/* video {
     width: 320px;
     height: 240px;
     display: inline-block;
     position: static
-  }
+  } */
 
 @media only screen and (max-width: 500px){          /*responsiveness*/
     body{
